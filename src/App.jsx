@@ -3,7 +3,7 @@ import React from 'react'
 import config from "../../config.json"
 
 import './App.css'
-import './SWK_React_Template/src/styles/App.css'
+import './React_Template/src/styles/App.css'
 
 import Main_Kn_Login from './Main_Kn_Login';
 

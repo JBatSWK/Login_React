@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 
-import Header from "./SWK_React_Template/src/components/Header/Header";
+import Header from "./React_Template/src/components/Header/Header";
 
-import AccountWidget from './SWK_React_Template/src/components/AccountWidget/AccountWidget';
+import AccountWidget from './React_Template/src/components/AccountWidget/AccountWidget';
 
 export default function Main_Kn_Login({name, icon, config}) {
 
-	const server_requests = require('./SWK_React_Template/src/server_handler/server_requests')(config)
+	const server_requests = require('./React_Template/src/server_handler/server_requests')(config)
 	
 
 	const [details, setDetails] = useState();
